@@ -101,13 +101,6 @@ A simple URL shortener web application built with Django and Django REST framewo
 
 The application includes a simple HTML form where users can enter a URL to shorten. The front-end is implemented using a minimal amount of JavaScript for form submission using AJAX.
 
-## Running Tests
-
-To run the tests for the application:
-
-```bash
-python manage.py test
-```
 
 ## License
 
