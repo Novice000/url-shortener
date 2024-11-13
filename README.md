@@ -1,8 +1,3 @@
-Here’s a version of the `README.md` without the virtual environment setup:
-
-### README.md
-
-```markdown
 # URL Shortener
 
 A simple URL shortener web application built with Django and Django REST framework. Users can input a long URL, and the application will generate a shortened version. When users visit the shortened URL, they will be redirected to the original URL, and the number of clicks will be tracked.
@@ -117,6 +112,3 @@ python manage.py test
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-```
-
-This version provides clear instructions for installation and running the project, omitting any mention of setting up a virtual environment.
