@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    margin: 20px;
+    color: rgb(25, 131, 112);
+    text-shadow: 3px 3px 3px black;
+    font-weight: bold;
+}
+
+body {
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://picsum.photos/1920/1080');
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    min-height: 200px;
+    width: 30%;
+    height: 40%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 2%;
+    box-shadow: 10px 10px 60px rgb(25, 131, 112);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="url"] {
+    width: 300px;
+    border-radius: 3px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+}
+
+input[type="submit"] {
+    width: 300px;
+    border-radius: 3px;
+    height: 30px;
+    background-color: rgb(25, 131, 112);
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 15px rgb(25, 131, 112);
+}
+
+.result{
+    border: thin solid rgb(25, 131, 112);
+    width: 375px;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 15px rgb(25, 131, 112);
+}
+
+p {
+    margin-bottom: 10px;
+}
+/* div{
+    border: thin solid black;
+} */
