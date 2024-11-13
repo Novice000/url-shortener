@@ -100,8 +100,3 @@ A simple URL shortener web application built with Django and Django REST framewo
 ## Frontend
 
 The application includes a simple HTML form where users can enter a URL to shorten. The front-end is implemented using a minimal amount of JavaScript for form submission using AJAX.
-
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
